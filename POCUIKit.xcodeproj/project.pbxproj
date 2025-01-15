@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		521463852D37DF970052C22E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521463842D37DF970052C22E /* AppDelegate.swift */; };
 		521463872D37DF970052C22E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521463862D37DF970052C22E /* SceneDelegate.swift */; };
-		521463892D37DF970052C22E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521463882D37DF970052C22E /* ViewController.swift */; };
 		5214638C2D37DF970052C22E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5214638B2D37DF970052C22E /* Base */; };
 		5214638E2D37DF980052C22E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5214638D2D37DF980052C22E /* Assets.xcassets */; };
 		521463912D37DF980052C22E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 521463902D37DF980052C22E /* Base */; };
@@ -22,6 +21,33 @@
 		521463CB2D37DFD20052C22E /* POCUIKitApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 521463BB2D37DFD20052C22E /* POCUIKitApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		521463CE2D37DFD20052C22E /* POCUIKitApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521463B92D37DFD20052C22E /* POCUIKitApp.framework */; };
 		521463CF2D37DFD20052C22E /* POCUIKitApp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 521463B92D37DFD20052C22E /* POCUIKitApp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		521463F92D37E39C0052C22E /* DSWaitingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521463D72D37E39C0052C22E /* DSWaitingScreenViewController.swift */; };
+		521463FA2D37E39C0052C22E /* DSWaitingScreenAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521463D92D37E39C0052C22E /* DSWaitingScreenAccessibility.swift */; };
+		521463FB2D37E39C0052C22E /* DSWaitingScreenDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521463DA2D37E39C0052C22E /* DSWaitingScreenDelegate.swift */; };
+		521463FC2D37E39C0052C22E /* DSWaitingScreenInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521463DB2D37E39C0052C22E /* DSWaitingScreenInterface.swift */; };
+		521463FD2D37E39C0052C22E /* DSWaitingScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521463DC2D37E39C0052C22E /* DSWaitingScreenViewModel.swift */; };
+		521463FE2D37E39C0052C22E /* WaitingScreenMediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521463DE2D37E39C0052C22E /* WaitingScreenMediaView.swift */; };
+		521463FF2D37E39C0052C22E /* DSWaitingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521463E02D37E39C0052C22E /* DSWaitingScreen.swift */; };
+		521464002D37E39C0052C22E /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521463E32D37E39C0052C22E /* UIImageViewExtension.swift */; };
+		521464012D37E39C0052C22E /* UIStackViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521463E42D37E39C0052C22E /* UIStackViewExtension.swift */; };
+		521464022D37E39C0052C22E /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521463E52D37E39C0052C22E /* UIViewExtension.swift */; };
+		521464032D37E39C0052C22E /* KcsUIKitFlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521463E72D37E39C0052C22E /* KcsUIKitFlowViewController.swift */; };
+		521464042D37E39C0052C22E /* KcsUIKitFlowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 521463E82D37E39C0052C22E /* KcsUIKitFlowViewController.xib */; };
+		521464052D37E39C0052C22E /* KcsLandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521463EA2D37E39C0052C22E /* KcsLandingViewController.swift */; };
+		521464062D37E39C0052C22E /* KcsLandingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 521463EB2D37E39C0052C22E /* KcsLandingViewController.xib */; };
+		521464072D37E39C0052C22E /* KcsWaitingScreenEntryPointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521463ED2D37E39C0052C22E /* KcsWaitingScreenEntryPointViewController.swift */; };
+		521464082D37E39C0052C22E /* KcsWaitingScreenEntryPointViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 521463EE2D37E39C0052C22E /* KcsWaitingScreenEntryPointViewController.xib */; };
+		521464092D37E39C0052C22E /* KcsWaitingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521463EF2D37E39C0052C22E /* KcsWaitingScreenViewController.swift */; };
+		5214640A2D37E39C0052C22E /* KcsWaitingScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 521463F02D37E39C0052C22E /* KcsWaitingScreenViewController.xib */; };
+		5214640B2D37E39C0052C22E /* KitchenSinkNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521463F22D37E39C0052C22E /* KitchenSinkNavigationView.swift */; };
+		5214640C2D37E39C0052C22E /* KitchenSinkNavigationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 521463F32D37E39C0052C22E /* KitchenSinkNavigationView.xib */; };
+		5214640D2D37E39C0052C22E /* UIKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521463F62D37E39C0052C22E /* UIKitViewController.swift */; };
+		5270BA452D38047700D88091 /* POCUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5270BA442D38043F00D88091 /* POCUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67960146191D94370F0E9CBA /* Pods_POCUIKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9E87763EDB5269B19399E6 /* Pods_POCUIKitTests.framework */; };
+		711991A0E3E5AA34F6F71D99 /* Pods_POCUIKitApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D1612D867F787BA0CCBCE0 /* Pods_POCUIKitApp.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		7F42B4C7D9049A706ED98FA9 /* Pods_POCUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5DC0764AF8F47A4514F3A7 /* Pods_POCUIKit.framework */; };
+		C6A274DE8FF758512230B509 /* Pods_POCUIKit_POCUIKitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AB0AF14208ACB586D52637 /* Pods_POCUIKit_POCUIKitUITests.framework */; };
+		C6D53E97A7D0EA4D94E0C4C5 /* Pods_POCUIKitApp_POCUIKitAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A66A7DBA13A3BF5AA809AEF /* Pods_POCUIKitApp_POCUIKitAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,10 +103,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		350FD124D2F74787FA971A75 /* Pods-POCUIKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCUIKitTests.release.xcconfig"; path = "Target Support Files/Pods-POCUIKitTests/Pods-POCUIKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		394E683F764901B655CC5F52 /* Pods-POCUIKitApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCUIKitApp.debug.xcconfig"; path = "Target Support Files/Pods-POCUIKitApp/Pods-POCUIKitApp.debug.xcconfig"; sourceTree = "<group>"; };
+		3A66A7DBA13A3BF5AA809AEF /* Pods_POCUIKitApp_POCUIKitAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POCUIKitApp_POCUIKitAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B27944AB2F37E1064FCFFA1 /* Pods-POCUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCUIKit.release.xcconfig"; path = "Target Support Files/Pods-POCUIKit/Pods-POCUIKit.release.xcconfig"; sourceTree = "<group>"; };
+		43D1612D867F787BA0CCBCE0 /* Pods_POCUIKitApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POCUIKitApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		521463812D37DF970052C22E /* POCUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POCUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		521463842D37DF970052C22E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		521463862D37DF970052C22E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		521463882D37DF970052C22E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5214638B2D37DF970052C22E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5214638D2D37DF980052C22E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		521463902D37DF980052C22E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -95,6 +125,38 @@
 		521463BC2D37DFD20052C22E /* POCUIKitApp.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = POCUIKitApp.docc; sourceTree = "<group>"; };
 		521463C22D37DFD20052C22E /* POCUIKitAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POCUIKitAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		521463C92D37DFD20052C22E /* POCUIKitAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POCUIKitAppTests.swift; sourceTree = "<group>"; };
+		521463D72D37E39C0052C22E /* DSWaitingScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSWaitingScreenViewController.swift; sourceTree = "<group>"; };
+		521463D92D37E39C0052C22E /* DSWaitingScreenAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSWaitingScreenAccessibility.swift; sourceTree = "<group>"; };
+		521463DA2D37E39C0052C22E /* DSWaitingScreenDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSWaitingScreenDelegate.swift; sourceTree = "<group>"; };
+		521463DB2D37E39C0052C22E /* DSWaitingScreenInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSWaitingScreenInterface.swift; sourceTree = "<group>"; };
+		521463DC2D37E39C0052C22E /* DSWaitingScreenViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSWaitingScreenViewModel.swift; sourceTree = "<group>"; };
+		521463DE2D37E39C0052C22E /* WaitingScreenMediaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaitingScreenMediaView.swift; sourceTree = "<group>"; };
+		521463E02D37E39C0052C22E /* DSWaitingScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSWaitingScreen.swift; sourceTree = "<group>"; };
+		521463E32D37E39C0052C22E /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		521463E42D37E39C0052C22E /* UIStackViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStackViewExtension.swift; sourceTree = "<group>"; };
+		521463E52D37E39C0052C22E /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		521463E72D37E39C0052C22E /* KcsUIKitFlowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KcsUIKitFlowViewController.swift; sourceTree = "<group>"; };
+		521463E82D37E39C0052C22E /* KcsUIKitFlowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KcsUIKitFlowViewController.xib; sourceTree = "<group>"; };
+		521463EA2D37E39C0052C22E /* KcsLandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KcsLandingViewController.swift; sourceTree = "<group>"; };
+		521463EB2D37E39C0052C22E /* KcsLandingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KcsLandingViewController.xib; sourceTree = "<group>"; };
+		521463ED2D37E39C0052C22E /* KcsWaitingScreenEntryPointViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KcsWaitingScreenEntryPointViewController.swift; sourceTree = "<group>"; };
+		521463EE2D37E39C0052C22E /* KcsWaitingScreenEntryPointViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KcsWaitingScreenEntryPointViewController.xib; sourceTree = "<group>"; };
+		521463EF2D37E39C0052C22E /* KcsWaitingScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KcsWaitingScreenViewController.swift; sourceTree = "<group>"; };
+		521463F02D37E39C0052C22E /* KcsWaitingScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KcsWaitingScreenViewController.xib; sourceTree = "<group>"; };
+		521463F22D37E39C0052C22E /* KitchenSinkNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KitchenSinkNavigationView.swift; sourceTree = "<group>"; };
+		521463F32D37E39C0052C22E /* KitchenSinkNavigationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KitchenSinkNavigationView.xib; sourceTree = "<group>"; };
+		521463F62D37E39C0052C22E /* UIKitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitViewController.swift; sourceTree = "<group>"; };
+		5270BA442D38043F00D88091 /* POCUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POCUIKit.h; sourceTree = "<group>"; };
+		5B5DC0764AF8F47A4514F3A7 /* Pods_POCUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POCUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		649DD1B068936344797451ED /* Pods-POCUIKitApp-POCUIKitAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCUIKitApp-POCUIKitAppTests.release.xcconfig"; path = "Target Support Files/Pods-POCUIKitApp-POCUIKitAppTests/Pods-POCUIKitApp-POCUIKitAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		64AB0AF14208ACB586D52637 /* Pods_POCUIKit_POCUIKitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POCUIKit_POCUIKitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73C20715EAA6B5CFE89DFEEC /* Pods-POCUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCUIKit.debug.xcconfig"; path = "Target Support Files/Pods-POCUIKit/Pods-POCUIKit.debug.xcconfig"; sourceTree = "<group>"; };
+		7BEBF7CC942D0AF7A60A0528 /* Pods-POCUIKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCUIKitTests.debug.xcconfig"; path = "Target Support Files/Pods-POCUIKitTests/Pods-POCUIKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B9E87763EDB5269B19399E6 /* Pods_POCUIKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POCUIKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE881E1AF9FDFB1CEDCD2240 /* Pods-POCUIKit-POCUIKitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCUIKit-POCUIKitUITests.debug.xcconfig"; path = "Target Support Files/Pods-POCUIKit-POCUIKitUITests/Pods-POCUIKit-POCUIKitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB0C4C254932F8EE4E951134 /* Pods-POCUIKitApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCUIKitApp.release.xcconfig"; path = "Target Support Files/Pods-POCUIKitApp/Pods-POCUIKitApp.release.xcconfig"; sourceTree = "<group>"; };
+		EF95A16B50A88AE1D32C1B63 /* Pods-POCUIKit-POCUIKitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCUIKit-POCUIKitUITests.release.xcconfig"; path = "Target Support Files/Pods-POCUIKit-POCUIKitUITests/Pods-POCUIKit-POCUIKitUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FD3C01A30B918FC2A2304284 /* Pods-POCUIKitApp-POCUIKitAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCUIKitApp-POCUIKitAppTests.debug.xcconfig"; path = "Target Support Files/Pods-POCUIKitApp-POCUIKitAppTests/Pods-POCUIKitApp-POCUIKitAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				521463CE2D37DFD20052C22E /* POCUIKitApp.framework in Frameworks */,
+				7F42B4C7D9049A706ED98FA9 /* Pods_POCUIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +173,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67960146191D94370F0E9CBA /* Pods_POCUIKitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +181,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6A274DE8FF758512230B509 /* Pods_POCUIKit_POCUIKitUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +189,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				711991A0E3E5AA34F6F71D99 /* Pods_POCUIKitApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				521463C32D37DFD20052C22E /* POCUIKitApp.framework in Frameworks */,
+				C6D53E97A7D0EA4D94E0C4C5 /* Pods_POCUIKitApp_POCUIKitAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +214,8 @@
 				521463BA2D37DFD20052C22E /* POCUIKitApp */,
 				521463C82D37DFD20052C22E /* POCUIKitAppTests */,
 				521463822D37DF970052C22E /* Products */,
+				5614572E2F971D6EBCBD7479 /* Pods */,
+				5906BC2232DDD4A313BAAC52 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -165,13 +234,14 @@
 		521463832D37DF970052C22E /* POCUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				521463F82D37E39C0052C22E /* Source */,
 				521463842D37DF970052C22E /* AppDelegate.swift */,
 				521463862D37DF970052C22E /* SceneDelegate.swift */,
-				521463882D37DF970052C22E /* ViewController.swift */,
 				5214638A2D37DF970052C22E /* Main.storyboard */,
 				5214638D2D37DF980052C22E /* Assets.xcassets */,
 				5214638F2D37DF980052C22E /* LaunchScreen.storyboard */,
 				521463922D37DF980052C22E /* Info.plist */,
+				5270BA442D38043F00D88091 /* POCUIKit.h */,
 			);
 			path = POCUIKit;
 			sourceTree = "<group>";
@@ -210,6 +280,159 @@
 			path = POCUIKitAppTests;
 			sourceTree = "<group>";
 		};
+		521463D82D37E39C0052C22E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				521463D72D37E39C0052C22E /* DSWaitingScreenViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		521463DD2D37E39C0052C22E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				521463D92D37E39C0052C22E /* DSWaitingScreenAccessibility.swift */,
+				521463DA2D37E39C0052C22E /* DSWaitingScreenDelegate.swift */,
+				521463DB2D37E39C0052C22E /* DSWaitingScreenInterface.swift */,
+				521463DC2D37E39C0052C22E /* DSWaitingScreenViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		521463DF2D37E39C0052C22E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				521463DE2D37E39C0052C22E /* WaitingScreenMediaView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		521463E12D37E39C0052C22E /* DSWaitingScreen */ = {
+			isa = PBXGroup;
+			children = (
+				521463D82D37E39C0052C22E /* Controller */,
+				521463DD2D37E39C0052C22E /* Model */,
+				521463DF2D37E39C0052C22E /* View */,
+				521463E02D37E39C0052C22E /* DSWaitingScreen.swift */,
+			);
+			path = DSWaitingScreen;
+			sourceTree = "<group>";
+		};
+		521463E22D37E39C0052C22E /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				521463E12D37E39C0052C22E /* DSWaitingScreen */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		521463E62D37E39C0052C22E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				521463E32D37E39C0052C22E /* UIImageViewExtension.swift */,
+				521463E42D37E39C0052C22E /* UIStackViewExtension.swift */,
+				521463E52D37E39C0052C22E /* UIViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		521463E92D37E39C0052C22E /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				521463E72D37E39C0052C22E /* KcsUIKitFlowViewController.swift */,
+				521463E82D37E39C0052C22E /* KcsUIKitFlowViewController.xib */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		521463EC2D37E39C0052C22E /* KcsLanding */ = {
+			isa = PBXGroup;
+			children = (
+				521463E92D37E39C0052C22E /* UIKit */,
+				521463EA2D37E39C0052C22E /* KcsLandingViewController.swift */,
+				521463EB2D37E39C0052C22E /* KcsLandingViewController.xib */,
+			);
+			path = KcsLanding;
+			sourceTree = "<group>";
+		};
+		521463F12D37E39C0052C22E /* KcsWaitingScreen */ = {
+			isa = PBXGroup;
+			children = (
+				521463ED2D37E39C0052C22E /* KcsWaitingScreenEntryPointViewController.swift */,
+				521463EE2D37E39C0052C22E /* KcsWaitingScreenEntryPointViewController.xib */,
+				521463EF2D37E39C0052C22E /* KcsWaitingScreenViewController.swift */,
+				521463F02D37E39C0052C22E /* KcsWaitingScreenViewController.xib */,
+			);
+			path = KcsWaitingScreen;
+			sourceTree = "<group>";
+		};
+		521463F42D37E39C0052C22E /* KitchenSinkNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				521463F22D37E39C0052C22E /* KitchenSinkNavigationView.swift */,
+				521463F32D37E39C0052C22E /* KitchenSinkNavigationView.xib */,
+			);
+			path = KitchenSinkNavigationBar;
+			sourceTree = "<group>";
+		};
+		521463F52D37E39C0052C22E /* KitchenSinkPages */ = {
+			isa = PBXGroup;
+			children = (
+				521463EC2D37E39C0052C22E /* KcsLanding */,
+				521463F12D37E39C0052C22E /* KcsWaitingScreen */,
+				521463F42D37E39C0052C22E /* KitchenSinkNavigationBar */,
+			);
+			path = KitchenSinkPages;
+			sourceTree = "<group>";
+		};
+		521463F72D37E39C0052C22E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				521463F62D37E39C0052C22E /* UIKitViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		521463F82D37E39C0052C22E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				521463E22D37E39C0052C22E /* Component */,
+				521463E62D37E39C0052C22E /* Extensions */,
+				521463F52D37E39C0052C22E /* KitchenSinkPages */,
+				521463F72D37E39C0052C22E /* ViewController */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		5614572E2F971D6EBCBD7479 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73C20715EAA6B5CFE89DFEEC /* Pods-POCUIKit.debug.xcconfig */,
+				3B27944AB2F37E1064FCFFA1 /* Pods-POCUIKit.release.xcconfig */,
+				CE881E1AF9FDFB1CEDCD2240 /* Pods-POCUIKit-POCUIKitUITests.debug.xcconfig */,
+				EF95A16B50A88AE1D32C1B63 /* Pods-POCUIKit-POCUIKitUITests.release.xcconfig */,
+				394E683F764901B655CC5F52 /* Pods-POCUIKitApp.debug.xcconfig */,
+				DB0C4C254932F8EE4E951134 /* Pods-POCUIKitApp.release.xcconfig */,
+				FD3C01A30B918FC2A2304284 /* Pods-POCUIKitApp-POCUIKitAppTests.debug.xcconfig */,
+				649DD1B068936344797451ED /* Pods-POCUIKitApp-POCUIKitAppTests.release.xcconfig */,
+				7BEBF7CC942D0AF7A60A0528 /* Pods-POCUIKitTests.debug.xcconfig */,
+				350FD124D2F74787FA971A75 /* Pods-POCUIKitTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5906BC2232DDD4A313BAAC52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B5DC0764AF8F47A4514F3A7 /* Pods_POCUIKit.framework */,
+				64AB0AF14208ACB586D52637 /* Pods_POCUIKit_POCUIKitUITests.framework */,
+				43D1612D867F787BA0CCBCE0 /* Pods_POCUIKitApp.framework */,
+				3A66A7DBA13A3BF5AA809AEF /* Pods_POCUIKitApp_POCUIKitAppTests.framework */,
+				8B9E87763EDB5269B19399E6 /* Pods_POCUIKitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -217,6 +440,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5270BA452D38047700D88091 /* POCUIKit.h in Headers */,
 				521463CB2D37DFD20052C22E /* POCUIKitApp.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -228,10 +452,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 521463AB2D37DF980052C22E /* Build configuration list for PBXNativeTarget "POCUIKit" */;
 			buildPhases = (
+				E5D50C5A927BF1BB3E25F29C /* [CP] Check Pods Manifest.lock */,
 				5214637D2D37DF970052C22E /* Sources */,
 				5214637E2D37DF970052C22E /* Frameworks */,
 				5214637F2D37DF970052C22E /* Resources */,
 				521463D32D37DFD20052C22E /* Embed Frameworks */,
+				6572578D786571C194E523B6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -247,6 +473,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 521463AE2D37DF980052C22E /* Build configuration list for PBXNativeTarget "POCUIKitTests" */;
 			buildPhases = (
+				0C36C73B1DE2345F87D07B64 /* [CP] Check Pods Manifest.lock */,
 				521463932D37DF980052C22E /* Sources */,
 				521463942D37DF980052C22E /* Frameworks */,
 				521463952D37DF980052C22E /* Resources */,
@@ -265,9 +492,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 521463B12D37DF980052C22E /* Build configuration list for PBXNativeTarget "POCUIKitUITests" */;
 			buildPhases = (
+				C2015A0A0AC994B039B83C02 /* [CP] Check Pods Manifest.lock */,
 				5214639D2D37DF980052C22E /* Sources */,
 				5214639E2D37DF980052C22E /* Frameworks */,
 				5214639F2D37DF980052C22E /* Resources */,
+				7FAB60A57D30AD62B543A142 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -283,6 +512,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 521463D02D37DFD20052C22E /* Build configuration list for PBXNativeTarget "POCUIKitApp" */;
 			buildPhases = (
+				CD8AD91D8D8E3ADB9A877689 /* [CP] Check Pods Manifest.lock */,
 				521463B42D37DFD20052C22E /* Headers */,
 				521463B52D37DFD20052C22E /* Sources */,
 				521463B62D37DFD20052C22E /* Frameworks */,
@@ -301,6 +531,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 521463D42D37DFD20052C22E /* Build configuration list for PBXNativeTarget "POCUIKitAppTests" */;
 			buildPhases = (
+				8F16D2FE1BC3EA0CEAB8E360 /* [CP] Check Pods Manifest.lock */,
 				521463BE2D37DFD20052C22E /* Sources */,
 				521463BF2D37DFD20052C22E /* Frameworks */,
 				521463C02D37DFD20052C22E /* Resources */,
@@ -374,8 +605,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5214638E2D37DF980052C22E /* Assets.xcassets in Resources */,
+				521464042D37E39C0052C22E /* KcsUIKitFlowViewController.xib in Resources */,
 				521463912D37DF980052C22E /* Base in Resources */,
+				5214640A2D37E39C0052C22E /* KcsWaitingScreenViewController.xib in Resources */,
+				5214640C2D37E39C0052C22E /* KitchenSinkNavigationView.xib in Resources */,
 				5214638C2D37DF970052C22E /* Base in Resources */,
+				521464082D37E39C0052C22E /* KcsWaitingScreenEntryPointViewController.xib in Resources */,
+				521464062D37E39C0052C22E /* KcsLandingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,14 +645,172 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C36C73B1DE2345F87D07B64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-POCUIKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6572578D786571C194E523B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-POCUIKit/Pods-POCUIKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FAB60A57D30AD62B543A142 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-POCUIKit-POCUIKitUITests/Pods-POCUIKit-POCUIKitUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F16D2FE1BC3EA0CEAB8E360 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-POCUIKitApp-POCUIKitAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2015A0A0AC994B039B83C02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-POCUIKit-POCUIKitUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD8AD91D8D8E3ADB9A877689 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-POCUIKitApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5D50C5A927BF1BB3E25F29C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-POCUIKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5214637D2D37DF970052C22E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				521463892D37DF970052C22E /* ViewController.swift in Sources */,
+				521463FA2D37E39C0052C22E /* DSWaitingScreenAccessibility.swift in Sources */,
+				521464012D37E39C0052C22E /* UIStackViewExtension.swift in Sources */,
+				521463FC2D37E39C0052C22E /* DSWaitingScreenInterface.swift in Sources */,
+				521463FF2D37E39C0052C22E /* DSWaitingScreen.swift in Sources */,
+				521464052D37E39C0052C22E /* KcsLandingViewController.swift in Sources */,
+				521463FB2D37E39C0052C22E /* DSWaitingScreenDelegate.swift in Sources */,
+				521464092D37E39C0052C22E /* KcsWaitingScreenViewController.swift in Sources */,
 				521463852D37DF970052C22E /* AppDelegate.swift in Sources */,
+				521464072D37E39C0052C22E /* KcsWaitingScreenEntryPointViewController.swift in Sources */,
+				5214640B2D37E39C0052C22E /* KitchenSinkNavigationView.swift in Sources */,
+				521464002D37E39C0052C22E /* UIImageViewExtension.swift in Sources */,
+				5214640D2D37E39C0052C22E /* UIKitViewController.swift in Sources */,
 				521463872D37DF970052C22E /* SceneDelegate.swift in Sources */,
+				521464022D37E39C0052C22E /* UIViewExtension.swift in Sources */,
+				521463F92D37E39C0052C22E /* DSWaitingScreenViewController.swift in Sources */,
+				521463FE2D37E39C0052C22E /* WaitingScreenMediaView.swift in Sources */,
+				521464032D37E39C0052C22E /* KcsUIKitFlowViewController.swift in Sources */,
+				521463FD2D37E39C0052C22E /* DSWaitingScreenViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,7 +934,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -603,7 +997,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -624,12 +1018,14 @@
 		};
 		521463AC2D37DF980052C22E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73C20715EAA6B5CFE89DFEEC /* Pods-POCUIKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L8VPXC87N5;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = POCUIKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -652,12 +1048,14 @@
 		};
 		521463AD2D37DF980052C22E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B27944AB2F37E1064FCFFA1 /* Pods-POCUIKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L8VPXC87N5;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = POCUIKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -680,6 +1078,7 @@
 		};
 		521463AF2D37DF980052C22E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BEBF7CC942D0AF7A60A0528 /* Pods-POCUIKitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -700,6 +1099,7 @@
 		};
 		521463B02D37DF980052C22E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 350FD124D2F74787FA971A75 /* Pods-POCUIKitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -720,6 +1120,7 @@
 		};
 		521463B22D37DF980052C22E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE881E1AF9FDFB1CEDCD2240 /* Pods-POCUIKit-POCUIKitUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -738,6 +1139,7 @@
 		};
 		521463B32D37DF980052C22E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF95A16B50A88AE1D32C1B63 /* Pods-POCUIKit-POCUIKitUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -756,6 +1158,7 @@
 		};
 		521463D12D37DFD20052C22E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 394E683F764901B655CC5F52 /* Pods-POCUIKitApp.debug.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -791,6 +1194,7 @@
 		};
 		521463D22D37DFD20052C22E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB0C4C254932F8EE4E951134 /* Pods-POCUIKitApp.release.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -826,11 +1230,13 @@
 		};
 		521463D52D37DFD20052C22E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD3C01A30B918FC2A2304284 /* Pods-POCUIKitApp-POCUIKitAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZDU63GUB32;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "oneapp-designsystem-ios-UIKit.POCUIKitAppTests";
@@ -844,11 +1250,13 @@
 		};
 		521463D62D37DFD20052C22E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 649DD1B068936344797451ED /* Pods-POCUIKitApp-POCUIKitAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZDU63GUB32;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "oneapp-designsystem-ios-UIKit.POCUIKitAppTests";
