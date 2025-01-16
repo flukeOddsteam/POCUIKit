@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00B6577E4BEA6325AD47E3F9 /* Pods_POCUIKitApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD4A1FF762C81355BA8746D /* Pods_POCUIKitApp.framework */; };
-		2EE6F7EF2C3D0A0E526763A1 /* Pods_POCUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DA55C28075270C65ADD59E7 /* Pods_POCUIKit.framework */; };
+		2197963776313B9137A14258 /* Pods_POCUIKitApp_POCUIKitAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC21D23F7F8059EABBE0B42F /* Pods_POCUIKitApp_POCUIKitAppTests.framework */; };
+		50232F2929F4DE71CF37FE35 /* Pods_POCUIKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31EC00F871BABF9C880B4FB0 /* Pods_POCUIKitTests.framework */; };
 		521463852D37DF970052C22E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521463842D37DF970052C22E /* AppDelegate.swift */; };
 		521463872D37DF970052C22E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521463862D37DF970052C22E /* SceneDelegate.swift */; };
 		5214638C2D37DF970052C22E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5214638B2D37DF970052C22E /* Base */; };
@@ -44,9 +44,9 @@
 		5214640C2D37E39C0052C22E /* KitchenSinkNavigationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 521463F32D37E39C0052C22E /* KitchenSinkNavigationView.xib */; };
 		5214640D2D37E39C0052C22E /* UIKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521463F62D37E39C0052C22E /* UIKitViewController.swift */; };
 		52FA1BAF2D389F520004C288 /* POCUIKitApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 521463BB2D37DFD20052C22E /* POCUIKitApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9084C02ECDC4ED5199C07617 /* Pods_POCUIKit_POCUIKitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C81899E587568389059E54A /* Pods_POCUIKit_POCUIKitUITests.framework */; };
-		A4F4FBAFF76FDB41803E481E /* Pods_POCUIKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9ED75D831BF8DA0E47FCF88 /* Pods_POCUIKitTests.framework */; };
-		E9937AD922915CC2F37EA890 /* Pods_POCUIKitApp_POCUIKitAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB71562525B235B0CF297BA /* Pods_POCUIKitApp_POCUIKitAppTests.framework */; };
+		5D7AC1B0E0FE27D5B3FC4159 /* Pods_POCUIKit_POCUIKitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D0641BE6CD0810A26AAE0F /* Pods_POCUIKit_POCUIKitUITests.framework */; };
+		D3B79B4AB38AE17C65E5BEB4 /* Pods_POCUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D57E907FB50F5CC74F3EEEB /* Pods_POCUIKit.framework */; };
+		F69976AD29D3863B654DA4A4 /* Pods_POCUIKitApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8EA79914831E6B98AB4C08 /* Pods_POCUIKitApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,12 +102,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1DBD467D56A49BE604CD5E49 /* Pods-POCUIKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCUIKitTests.release.xcconfig"; path = "Target Support Files/Pods-POCUIKitTests/Pods-POCUIKitTests.release.xcconfig"; sourceTree = "<group>"; };
-		22CB79C77638BC4E0DA46C5D /* Pods-POCUIKitApp-POCUIKitAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCUIKitApp-POCUIKitAppTests.debug.xcconfig"; path = "Target Support Files/Pods-POCUIKitApp-POCUIKitAppTests/Pods-POCUIKitApp-POCUIKitAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		3A03F0812AE813756CC855E4 /* Pods-POCUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCUIKit.debug.xcconfig"; path = "Target Support Files/Pods-POCUIKit/Pods-POCUIKit.debug.xcconfig"; sourceTree = "<group>"; };
-		3C81899E587568389059E54A /* Pods_POCUIKit_POCUIKitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POCUIKit_POCUIKitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F6AB9D15111FF4FEA3BB818 /* Pods-POCUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCUIKit.release.xcconfig"; path = "Target Support Files/Pods-POCUIKit/Pods-POCUIKit.release.xcconfig"; sourceTree = "<group>"; };
-		4EB71562525B235B0CF297BA /* Pods_POCUIKitApp_POCUIKitAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POCUIKitApp_POCUIKitAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B2F46734B9B00332FDD6C8B /* Pods-POCUIKitApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCUIKitApp.release.xcconfig"; path = "Target Support Files/Pods-POCUIKitApp/Pods-POCUIKitApp.release.xcconfig"; sourceTree = "<group>"; };
+		1E963A1685D7253C982BBAA0 /* Pods-POCUIKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCUIKitTests.debug.xcconfig"; path = "Target Support Files/Pods-POCUIKitTests/Pods-POCUIKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		31EC00F871BABF9C880B4FB0 /* Pods_POCUIKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POCUIKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		464E334F14B8E0D611621686 /* Pods-POCUIKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCUIKitTests.release.xcconfig"; path = "Target Support Files/Pods-POCUIKitTests/Pods-POCUIKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		481128582CE7A8957F7148E0 /* Pods-POCUIKitApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCUIKitApp.debug.xcconfig"; path = "Target Support Files/Pods-POCUIKitApp/Pods-POCUIKitApp.debug.xcconfig"; sourceTree = "<group>"; };
 		521463812D37DF970052C22E /* POCUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POCUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		521463842D37DF970052C22E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		521463862D37DF970052C22E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -146,15 +145,16 @@
 		521463F22D37E39C0052C22E /* KitchenSinkNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KitchenSinkNavigationView.swift; sourceTree = "<group>"; };
 		521463F32D37E39C0052C22E /* KitchenSinkNavigationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KitchenSinkNavigationView.xib; sourceTree = "<group>"; };
 		521463F62D37E39C0052C22E /* UIKitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitViewController.swift; sourceTree = "<group>"; };
-		5DA55C28075270C65ADD59E7 /* Pods_POCUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POCUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F94E8F9197ABDD8E7393C50 /* Pods-POCUIKitApp-POCUIKitAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCUIKitApp-POCUIKitAppTests.release.xcconfig"; path = "Target Support Files/Pods-POCUIKitApp-POCUIKitAppTests/Pods-POCUIKitApp-POCUIKitAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		735022A3D74506D491181D03 /* Pods-POCUIKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCUIKitTests.debug.xcconfig"; path = "Target Support Files/Pods-POCUIKitTests/Pods-POCUIKitTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7D93F22E0A5DF886F914E2F0 /* Pods-POCUIKitApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCUIKitApp.release.xcconfig"; path = "Target Support Files/Pods-POCUIKitApp/Pods-POCUIKitApp.release.xcconfig"; sourceTree = "<group>"; };
-		CE0607D5BCA30AF66B34CC12 /* Pods-POCUIKitApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCUIKitApp.debug.xcconfig"; path = "Target Support Files/Pods-POCUIKitApp/Pods-POCUIKitApp.debug.xcconfig"; sourceTree = "<group>"; };
-		CFD4A1FF762C81355BA8746D /* Pods_POCUIKitApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POCUIKitApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D78A0E3CE74768534AF9BA1F /* Pods-POCUIKit-POCUIKitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCUIKit-POCUIKitUITests.debug.xcconfig"; path = "Target Support Files/Pods-POCUIKit-POCUIKitUITests/Pods-POCUIKit-POCUIKitUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		F4779B75A19F025A5EE66124 /* Pods-POCUIKit-POCUIKitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCUIKit-POCUIKitUITests.release.xcconfig"; path = "Target Support Files/Pods-POCUIKit-POCUIKitUITests/Pods-POCUIKit-POCUIKitUITests.release.xcconfig"; sourceTree = "<group>"; };
-		F9ED75D831BF8DA0E47FCF88 /* Pods_POCUIKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POCUIKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53101757DE38958DCD48A388 /* Pods-POCUIKitApp-POCUIKitAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCUIKitApp-POCUIKitAppTests.debug.xcconfig"; path = "Target Support Files/Pods-POCUIKitApp-POCUIKitAppTests/Pods-POCUIKitApp-POCUIKitAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		53AA5EB2230E6D3B6D694C5A /* Pods-POCUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCUIKit.debug.xcconfig"; path = "Target Support Files/Pods-POCUIKit/Pods-POCUIKit.debug.xcconfig"; sourceTree = "<group>"; };
+		7D57E907FB50F5CC74F3EEEB /* Pods_POCUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POCUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F8EA79914831E6B98AB4C08 /* Pods_POCUIKitApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POCUIKitApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0D0641BE6CD0810A26AAE0F /* Pods_POCUIKit_POCUIKitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POCUIKit_POCUIKitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF48B2CB67B8845EE6E2C027 /* Pods-POCUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCUIKit.release.xcconfig"; path = "Target Support Files/Pods-POCUIKit/Pods-POCUIKit.release.xcconfig"; sourceTree = "<group>"; };
+		DC21D23F7F8059EABBE0B42F /* Pods_POCUIKitApp_POCUIKitAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POCUIKitApp_POCUIKitAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E24B1C1FFBED60243ED601FE /* Pods-POCUIKit-POCUIKitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCUIKit-POCUIKitUITests.debug.xcconfig"; path = "Target Support Files/Pods-POCUIKit-POCUIKitUITests/Pods-POCUIKit-POCUIKitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E529967EFC80BAD7EB7A7398 /* Pods-POCUIKit-POCUIKitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCUIKit-POCUIKitUITests.release.xcconfig"; path = "Target Support Files/Pods-POCUIKit-POCUIKitUITests/Pods-POCUIKit-POCUIKitUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E6168E487DA0938CD3432578 /* Pods-POCUIKitApp-POCUIKitAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCUIKitApp-POCUIKitAppTests.release.xcconfig"; path = "Target Support Files/Pods-POCUIKitApp-POCUIKitAppTests/Pods-POCUIKitApp-POCUIKitAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,7 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				521463CE2D37DFD20052C22E /* POCUIKitApp.framework in Frameworks */,
-				2EE6F7EF2C3D0A0E526763A1 /* Pods_POCUIKit.framework in Frameworks */,
+				D3B79B4AB38AE17C65E5BEB4 /* Pods_POCUIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,7 +171,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4F4FBAFF76FDB41803E481E /* Pods_POCUIKitTests.framework in Frameworks */,
+				50232F2929F4DE71CF37FE35 /* Pods_POCUIKitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +179,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9084C02ECDC4ED5199C07617 /* Pods_POCUIKit_POCUIKitUITests.framework in Frameworks */,
+				5D7AC1B0E0FE27D5B3FC4159 /* Pods_POCUIKit_POCUIKitUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,7 +187,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00B6577E4BEA6325AD47E3F9 /* Pods_POCUIKitApp.framework in Frameworks */,
+				F69976AD29D3863B654DA4A4 /* Pods_POCUIKitApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				521463C32D37DFD20052C22E /* POCUIKitApp.framework in Frameworks */,
-				E9937AD922915CC2F37EA890 /* Pods_POCUIKitApp_POCUIKitAppTests.framework in Frameworks */,
+				2197963776313B9137A14258 /* Pods_POCUIKitApp_POCUIKitAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +213,7 @@
 				521463C82D37DFD20052C22E /* POCUIKitAppTests */,
 				521463822D37DF970052C22E /* Products */,
 				5614572E2F971D6EBCBD7479 /* Pods */,
-				638F9CC589D6F7FDBF148114 /* Frameworks */,
+				F6AB6CD7811CB986875CC91F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -404,28 +404,28 @@
 		5614572E2F971D6EBCBD7479 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3A03F0812AE813756CC855E4 /* Pods-POCUIKit.debug.xcconfig */,
-				3F6AB9D15111FF4FEA3BB818 /* Pods-POCUIKit.release.xcconfig */,
-				D78A0E3CE74768534AF9BA1F /* Pods-POCUIKit-POCUIKitUITests.debug.xcconfig */,
-				F4779B75A19F025A5EE66124 /* Pods-POCUIKit-POCUIKitUITests.release.xcconfig */,
-				CE0607D5BCA30AF66B34CC12 /* Pods-POCUIKitApp.debug.xcconfig */,
-				7D93F22E0A5DF886F914E2F0 /* Pods-POCUIKitApp.release.xcconfig */,
-				22CB79C77638BC4E0DA46C5D /* Pods-POCUIKitApp-POCUIKitAppTests.debug.xcconfig */,
-				6F94E8F9197ABDD8E7393C50 /* Pods-POCUIKitApp-POCUIKitAppTests.release.xcconfig */,
-				735022A3D74506D491181D03 /* Pods-POCUIKitTests.debug.xcconfig */,
-				1DBD467D56A49BE604CD5E49 /* Pods-POCUIKitTests.release.xcconfig */,
+				53AA5EB2230E6D3B6D694C5A /* Pods-POCUIKit.debug.xcconfig */,
+				BF48B2CB67B8845EE6E2C027 /* Pods-POCUIKit.release.xcconfig */,
+				E24B1C1FFBED60243ED601FE /* Pods-POCUIKit-POCUIKitUITests.debug.xcconfig */,
+				E529967EFC80BAD7EB7A7398 /* Pods-POCUIKit-POCUIKitUITests.release.xcconfig */,
+				481128582CE7A8957F7148E0 /* Pods-POCUIKitApp.debug.xcconfig */,
+				0B2F46734B9B00332FDD6C8B /* Pods-POCUIKitApp.release.xcconfig */,
+				53101757DE38958DCD48A388 /* Pods-POCUIKitApp-POCUIKitAppTests.debug.xcconfig */,
+				E6168E487DA0938CD3432578 /* Pods-POCUIKitApp-POCUIKitAppTests.release.xcconfig */,
+				1E963A1685D7253C982BBAA0 /* Pods-POCUIKitTests.debug.xcconfig */,
+				464E334F14B8E0D611621686 /* Pods-POCUIKitTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		638F9CC589D6F7FDBF148114 /* Frameworks */ = {
+		F6AB6CD7811CB986875CC91F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5DA55C28075270C65ADD59E7 /* Pods_POCUIKit.framework */,
-				3C81899E587568389059E54A /* Pods_POCUIKit_POCUIKitUITests.framework */,
-				CFD4A1FF762C81355BA8746D /* Pods_POCUIKitApp.framework */,
-				4EB71562525B235B0CF297BA /* Pods_POCUIKitApp_POCUIKitAppTests.framework */,
-				F9ED75D831BF8DA0E47FCF88 /* Pods_POCUIKitTests.framework */,
+				7D57E907FB50F5CC74F3EEEB /* Pods_POCUIKit.framework */,
+				A0D0641BE6CD0810A26AAE0F /* Pods_POCUIKit_POCUIKitUITests.framework */,
+				9F8EA79914831E6B98AB4C08 /* Pods_POCUIKitApp.framework */,
+				DC21D23F7F8059EABBE0B42F /* Pods_POCUIKitApp_POCUIKitAppTests.framework */,
+				31EC00F871BABF9C880B4FB0 /* Pods_POCUIKitTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -448,12 +448,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 521463AB2D37DF980052C22E /* Build configuration list for PBXNativeTarget "POCUIKit" */;
 			buildPhases = (
-				178C370649379622E96B1198 /* [CP] Check Pods Manifest.lock */,
+				F883F4CE9B8388B2ACC362AC /* [CP] Check Pods Manifest.lock */,
 				5214637D2D37DF970052C22E /* Sources */,
 				5214637E2D37DF970052C22E /* Frameworks */,
 				5214637F2D37DF970052C22E /* Resources */,
 				521463D32D37DFD20052C22E /* Embed Frameworks */,
-				20246E343A35C94D9669CDB9 /* [CP] Embed Pods Frameworks */,
+				902263B01D793D9BDC16A839 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -469,7 +469,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 521463AE2D37DF980052C22E /* Build configuration list for PBXNativeTarget "POCUIKitTests" */;
 			buildPhases = (
-				552E96ABC443D2C625C7B2DF /* [CP] Check Pods Manifest.lock */,
+				1AC0F6EFD4872C91E421F01E /* [CP] Check Pods Manifest.lock */,
 				521463932D37DF980052C22E /* Sources */,
 				521463942D37DF980052C22E /* Frameworks */,
 				521463952D37DF980052C22E /* Resources */,
@@ -488,11 +488,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 521463B12D37DF980052C22E /* Build configuration list for PBXNativeTarget "POCUIKitUITests" */;
 			buildPhases = (
-				6C322F2623CC4CA0FA2B0B41 /* [CP] Check Pods Manifest.lock */,
+				E7FEB910928084B2A793D5D2 /* [CP] Check Pods Manifest.lock */,
 				5214639D2D37DF980052C22E /* Sources */,
 				5214639E2D37DF980052C22E /* Frameworks */,
 				5214639F2D37DF980052C22E /* Resources */,
-				31DB80350DA8A02CE96D818A /* [CP] Embed Pods Frameworks */,
+				123A130553788BF4CD48B44A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -508,7 +508,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 521463D02D37DFD20052C22E /* Build configuration list for PBXNativeTarget "POCUIKitApp" */;
 			buildPhases = (
-				51AF49EC5FE202ADD0B8FB28 /* [CP] Check Pods Manifest.lock */,
+				BB22B6B2D955F60BE6B6FB08 /* [CP] Check Pods Manifest.lock */,
 				521463B42D37DFD20052C22E /* Headers */,
 				521463B52D37DFD20052C22E /* Sources */,
 				521463B62D37DFD20052C22E /* Frameworks */,
@@ -527,7 +527,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 521463D42D37DFD20052C22E /* Build configuration list for PBXNativeTarget "POCUIKitAppTests" */;
 			buildPhases = (
-				ABC8F511BCB347E6E5CEB9E6 /* [CP] Check Pods Manifest.lock */,
+				BEE7B8F497A9681E15797346 /* [CP] Check Pods Manifest.lock */,
 				521463BE2D37DFD20052C22E /* Sources */,
 				521463BF2D37DFD20052C22E /* Frameworks */,
 				521463C02D37DFD20052C22E /* Resources */,
@@ -642,44 +642,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		178C370649379622E96B1198 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-POCUIKit-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		20246E343A35C94D9669CDB9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-POCUIKit/Pods-POCUIKit-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		31DB80350DA8A02CE96D818A /* [CP] Embed Pods Frameworks */ = {
+		123A130553788BF4CD48B44A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -694,29 +657,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-POCUIKit-POCUIKitUITests/Pods-POCUIKit-POCUIKitUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		51AF49EC5FE202ADD0B8FB28 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-POCUIKitApp-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		552E96ABC443D2C625C7B2DF /* [CP] Check Pods Manifest.lock */ = {
+		1AC0F6EFD4872C91E421F01E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -738,7 +679,66 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6C322F2623CC4CA0FA2B0B41 /* [CP] Check Pods Manifest.lock */ = {
+		902263B01D793D9BDC16A839 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-POCUIKit/Pods-POCUIKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB22B6B2D955F60BE6B6FB08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-POCUIKitApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEE7B8F497A9681E15797346 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-POCUIKitApp-POCUIKitAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7FEB910928084B2A793D5D2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -760,7 +760,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		ABC8F511BCB347E6E5CEB9E6 /* [CP] Check Pods Manifest.lock */ = {
+		F883F4CE9B8388B2ACC362AC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -775,7 +775,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-POCUIKitApp-POCUIKitAppTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-POCUIKit-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1014,7 +1014,7 @@
 		};
 		521463AC2D37DF980052C22E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A03F0812AE813756CC855E4 /* Pods-POCUIKit.debug.xcconfig */;
+			baseConfigurationReference = 53AA5EB2230E6D3B6D694C5A /* Pods-POCUIKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1044,7 +1044,7 @@
 		};
 		521463AD2D37DF980052C22E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F6AB9D15111FF4FEA3BB818 /* Pods-POCUIKit.release.xcconfig */;
+			baseConfigurationReference = BF48B2CB67B8845EE6E2C027 /* Pods-POCUIKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1074,7 +1074,7 @@
 		};
 		521463AF2D37DF980052C22E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 735022A3D74506D491181D03 /* Pods-POCUIKitTests.debug.xcconfig */;
+			baseConfigurationReference = 1E963A1685D7253C982BBAA0 /* Pods-POCUIKitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1095,7 +1095,7 @@
 		};
 		521463B02D37DF980052C22E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1DBD467D56A49BE604CD5E49 /* Pods-POCUIKitTests.release.xcconfig */;
+			baseConfigurationReference = 464E334F14B8E0D611621686 /* Pods-POCUIKitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1116,7 +1116,7 @@
 		};
 		521463B22D37DF980052C22E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D78A0E3CE74768534AF9BA1F /* Pods-POCUIKit-POCUIKitUITests.debug.xcconfig */;
+			baseConfigurationReference = E24B1C1FFBED60243ED601FE /* Pods-POCUIKit-POCUIKitUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1135,7 +1135,7 @@
 		};
 		521463B32D37DF980052C22E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4779B75A19F025A5EE66124 /* Pods-POCUIKit-POCUIKitUITests.release.xcconfig */;
+			baseConfigurationReference = E529967EFC80BAD7EB7A7398 /* Pods-POCUIKit-POCUIKitUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1154,7 +1154,7 @@
 		};
 		521463D12D37DFD20052C22E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE0607D5BCA30AF66B34CC12 /* Pods-POCUIKitApp.debug.xcconfig */;
+			baseConfigurationReference = 481128582CE7A8957F7148E0 /* Pods-POCUIKitApp.debug.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1190,7 +1190,7 @@
 		};
 		521463D22D37DFD20052C22E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D93F22E0A5DF886F914E2F0 /* Pods-POCUIKitApp.release.xcconfig */;
+			baseConfigurationReference = 0B2F46734B9B00332FDD6C8B /* Pods-POCUIKitApp.release.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1226,7 +1226,7 @@
 		};
 		521463D52D37DFD20052C22E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22CB79C77638BC4E0DA46C5D /* Pods-POCUIKitApp-POCUIKitAppTests.debug.xcconfig */;
+			baseConfigurationReference = 53101757DE38958DCD48A388 /* Pods-POCUIKitApp-POCUIKitAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1246,7 +1246,7 @@
 		};
 		521463D62D37DFD20052C22E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F94E8F9197ABDD8E7393C50 /* Pods-POCUIKitApp-POCUIKitAppTests.release.xcconfig */;
+			baseConfigurationReference = E6168E487DA0938CD3432578 /* Pods-POCUIKitApp-POCUIKitAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
