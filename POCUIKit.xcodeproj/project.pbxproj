@@ -18,7 +18,6 @@
 		521463BD2D37DFD20052C22E /* POCUIKitApp.docc in Sources */ = {isa = PBXBuildFile; fileRef = 521463BC2D37DFD20052C22E /* POCUIKitApp.docc */; };
 		521463C32D37DFD20052C22E /* POCUIKitApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521463B92D37DFD20052C22E /* POCUIKitApp.framework */; };
 		521463CA2D37DFD20052C22E /* POCUIKitAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521463C92D37DFD20052C22E /* POCUIKitAppTests.swift */; };
-		521463CB2D37DFD20052C22E /* POCUIKitApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 521463BB2D37DFD20052C22E /* POCUIKitApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		521463CE2D37DFD20052C22E /* POCUIKitApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521463B92D37DFD20052C22E /* POCUIKitApp.framework */; };
 		521463CF2D37DFD20052C22E /* POCUIKitApp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 521463B92D37DFD20052C22E /* POCUIKitApp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		521463F92D37E39C0052C22E /* DSWaitingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521463D72D37E39C0052C22E /* DSWaitingScreenViewController.swift */; };
@@ -42,7 +41,7 @@
 		5214640B2D37E39C0052C22E /* KitchenSinkNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521463F22D37E39C0052C22E /* KitchenSinkNavigationView.swift */; };
 		5214640C2D37E39C0052C22E /* KitchenSinkNavigationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 521463F32D37E39C0052C22E /* KitchenSinkNavigationView.xib */; };
 		5214640D2D37E39C0052C22E /* UIKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521463F62D37E39C0052C22E /* UIKitViewController.swift */; };
-		5270BA452D38047700D88091 /* POCUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5270BA442D38043F00D88091 /* POCUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52FA1BAF2D389F520004C288 /* POCUIKitApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 521463BB2D37DFD20052C22E /* POCUIKitApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67960146191D94370F0E9CBA /* Pods_POCUIKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9E87763EDB5269B19399E6 /* Pods_POCUIKitTests.framework */; };
 		711991A0E3E5AA34F6F71D99 /* Pods_POCUIKitApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D1612D867F787BA0CCBCE0 /* Pods_POCUIKitApp.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		7F42B4C7D9049A706ED98FA9 /* Pods_POCUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5DC0764AF8F47A4514F3A7 /* Pods_POCUIKit.framework */; };
@@ -146,7 +145,6 @@
 		521463F22D37E39C0052C22E /* KitchenSinkNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KitchenSinkNavigationView.swift; sourceTree = "<group>"; };
 		521463F32D37E39C0052C22E /* KitchenSinkNavigationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KitchenSinkNavigationView.xib; sourceTree = "<group>"; };
 		521463F62D37E39C0052C22E /* UIKitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitViewController.swift; sourceTree = "<group>"; };
-		5270BA442D38043F00D88091 /* POCUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POCUIKit.h; sourceTree = "<group>"; };
 		5B5DC0764AF8F47A4514F3A7 /* Pods_POCUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POCUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		649DD1B068936344797451ED /* Pods-POCUIKitApp-POCUIKitAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCUIKitApp-POCUIKitAppTests.release.xcconfig"; path = "Target Support Files/Pods-POCUIKitApp-POCUIKitAppTests/Pods-POCUIKitApp-POCUIKitAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		64AB0AF14208ACB586D52637 /* Pods_POCUIKit_POCUIKitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POCUIKit_POCUIKitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -241,7 +239,6 @@
 				5214638D2D37DF980052C22E /* Assets.xcassets */,
 				5214638F2D37DF980052C22E /* LaunchScreen.storyboard */,
 				521463922D37DF980052C22E /* Info.plist */,
-				5270BA442D38043F00D88091 /* POCUIKit.h */,
 			);
 			path = POCUIKit;
 			sourceTree = "<group>";
@@ -440,8 +437,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5270BA452D38047700D88091 /* POCUIKit.h in Headers */,
-				521463CB2D37DFD20052C22E /* POCUIKitApp.h in Headers */,
+				52FA1BAF2D389F520004C288 /* POCUIKitApp.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
