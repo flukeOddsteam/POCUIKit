@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_POCUIKit_POCUIKitUITestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_POCUIKit_POCUIKitUITestsVersionString[];
+FOUNDATION_EXPORT double Pods_POCUIKitUITestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_POCUIKitUITestsVersionString[];
 
