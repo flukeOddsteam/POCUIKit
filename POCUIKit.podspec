@@ -21,5 +21,6 @@ Pod::Spec.new do |spec|
     lib.dependency 'IQKeyboardManagerSwift'
     lib.dependency 'Kingfisher'
     lib.dependency 'lottie-ios', '3.4.4'
+    lib.dependency 'OneAppDesignSystem', '11.5.0'
   end
 end
