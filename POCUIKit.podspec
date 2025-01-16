@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/flukeOddsteam/POCUIKit"
   spec.license      = { :type => 'MIT', :text => 'Copyright © 2021 TMB Bank Public Company Limited. All rights reserved.' }
   spec.author       = { "fluke" => "fluke@odds.team" }
-  spec.source       = { :git => "git@github.com:flukeOddsteam/POCUIKit.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "git@github.com:flukeOddsteam/POCUIKit-private-pod.git", :tag => "#{spec.version}" }
   spec.source_files  = "POCUIKit/Source/**/*.{swift,h,m}"
   spec.resources    = [
     "POCUIKit/Source/**/*.{strings,xcassets,storyboard,xib,json,ttf,txt}"
