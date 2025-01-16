@@ -5,7 +5,6 @@ platform :ios, '12.0'
 
 source 'https://github.com/cocoapods/specs.git'
 source 'git@github.com:flukeOddsteam/POCUIKit-private-pod.git'
-source 'https://vendor483@bitbucket.org/ttbbank/one_oneapp-designsystem-ios.git'
 source 'https://bitbucket.org/ttbbank/one_oneapp-designsystem-ios-private-pods.git'
 
 install! 'cocoapods', :disable_input_output_paths => true
