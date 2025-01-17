@@ -210,10 +210,10 @@
 		521463782D37DF970052C22E = {
 			isa = PBXGroup;
 			children = (
-				521463832D37DF970052C22E /* POCUIKit */,
+				521463BA2D37DFD20052C22E /* POCUIKit */,
+				521463832D37DF970052C22E /* POCUIKitApp */,
 				5214639A2D37DF980052C22E /* POCUIKitTests */,
 				521463A42D37DF980052C22E /* POCUIKitUITests */,
-				521463BA2D37DFD20052C22E /* POCUIKitApp */,
 				521463C82D37DFD20052C22E /* POCUIKitAppTests */,
 				521463822D37DF970052C22E /* Products */,
 				5614572E2F971D6EBCBD7479 /* Pods */,
@@ -233,7 +233,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		521463832D37DF970052C22E /* POCUIKit */ = {
+		521463832D37DF970052C22E /* POCUIKitApp */ = {
 			isa = PBXGroup;
 			children = (
 				521463842D37DF970052C22E /* AppDelegate.swift */,
@@ -243,7 +243,7 @@
 				5214638F2D37DF980052C22E /* LaunchScreen.storyboard */,
 				521463922D37DF980052C22E /* Info.plist */,
 			);
-			path = POCUIKit;
+			path = POCUIKitApp;
 			sourceTree = "<group>";
 		};
 		5214639A2D37DF980052C22E /* POCUIKitTests */ = {
@@ -263,14 +263,14 @@
 			path = POCUIKitUITests;
 			sourceTree = "<group>";
 		};
-		521463BA2D37DFD20052C22E /* POCUIKitApp */ = {
+		521463BA2D37DFD20052C22E /* POCUIKit */ = {
 			isa = PBXGroup;
 			children = (
 				521463F82D37E39C0052C22E /* Source */,
 				521463BB2D37DFD20052C22E /* POCUIKitApp.h */,
 				521463BC2D37DFD20052C22E /* POCUIKitApp.docc */,
 			);
-			path = POCUIKitApp;
+			path = POCUIKit;
 			sourceTree = "<group>";
 		};
 		521463C82D37DFD20052C22E /* POCUIKitAppTests */ = {
