@@ -12,17 +12,12 @@ Pod::Spec.new do |spec|
     "POCUIKit/Source/**/*.{strings,xcassets,storyboard,xib}",
     "POCUIKit/Source/**/*.json"
   ]
-  spec.public_header_files = 'POCUIKit/Source/**/*.h'
 
   spec.ios.deployment_target = "12.0"
-  spec.static_framework = true
+  spec.static_framework = false
   spec.swift_version = "5.1"
 
   spec.subspec 'Lib' do |lib|
-    lib.dependency 'PanModal'
-    lib.dependency 'IQKeyboardManagerSwift'
-    lib.dependency 'Kingfisher'
-    lib.dependency 'lottie-ios', '3.4.4'
     lib.dependency 'OneAppDesignSystem', '11.5.0'
   end
 end

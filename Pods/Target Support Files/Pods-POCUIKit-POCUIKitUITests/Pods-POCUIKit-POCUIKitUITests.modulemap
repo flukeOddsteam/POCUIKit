@@ -1,0 +1,6 @@
+framework module Pods_POCUIKit_POCUIKitUITests {
+  umbrella header "Pods-POCUIKit-POCUIKitUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

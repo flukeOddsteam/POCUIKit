@@ -43,7 +43,7 @@
 		5214640C2D37E39C0052C22E /* KitchenSinkNavigationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 521463F32D37E39C0052C22E /* KitchenSinkNavigationView.xib */; };
 		5214640D2D37E39C0052C22E /* UIKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521463F62D37E39C0052C22E /* UIKitViewController.swift */; };
 		52FA1BAF2D389F520004C288 /* POCUIKitApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 521463BB2D37DFD20052C22E /* POCUIKitApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8773B285AF54A87918D24024 /* Pods_POCUIKitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC37106DC7E530703505D49 /* Pods_POCUIKitUITests.framework */; };
+		73C4B9DE5B881CFF12F2E02A /* Pods_POCUIKit_POCUIKitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D80936E7B5902A4F17907B /* Pods_POCUIKit_POCUIKitUITests.framework */; };
 		B717D84530FC150203843BB9 /* Pods_POCUIKitAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F25B08E186019B9723A8E798 /* Pods_POCUIKitAppTests.framework */; };
 		D3B79B4AB38AE17C65E5BEB4 /* Pods_POCUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D57E907FB50F5CC74F3EEEB /* Pods_POCUIKit.framework */; };
 		F69976AD29D3863B654DA4A4 /* Pods_POCUIKitApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8EA79914831E6B98AB4C08 /* Pods_POCUIKitApp.framework */; };
@@ -108,7 +108,6 @@
 		31EC00F871BABF9C880B4FB0 /* Pods_POCUIKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POCUIKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		464E334F14B8E0D611621686 /* Pods-POCUIKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCUIKitTests.release.xcconfig"; path = "Target Support Files/Pods-POCUIKitTests/Pods-POCUIKitTests.release.xcconfig"; sourceTree = "<group>"; };
 		481128582CE7A8957F7148E0 /* Pods-POCUIKitApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCUIKitApp.debug.xcconfig"; path = "Target Support Files/Pods-POCUIKitApp/Pods-POCUIKitApp.debug.xcconfig"; sourceTree = "<group>"; };
-		4FC37106DC7E530703505D49 /* Pods_POCUIKitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POCUIKitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		521463812D37DF970052C22E /* POCUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POCUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		521463842D37DF970052C22E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		521463862D37DF970052C22E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -151,6 +150,7 @@
 		53AA5EB2230E6D3B6D694C5A /* Pods-POCUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCUIKit.debug.xcconfig"; path = "Target Support Files/Pods-POCUIKit/Pods-POCUIKit.debug.xcconfig"; sourceTree = "<group>"; };
 		7546F51C962756ED2C6BC39B /* Pods-POCUIKitAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCUIKitAppTests.debug.xcconfig"; path = "Target Support Files/Pods-POCUIKitAppTests/Pods-POCUIKitAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7D57E907FB50F5CC74F3EEEB /* Pods_POCUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POCUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D80936E7B5902A4F17907B /* Pods_POCUIKit_POCUIKitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POCUIKit_POCUIKitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8940CAD015E8AE995E9E1FA9 /* Pods-POCUIKitAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCUIKitAppTests.release.xcconfig"; path = "Target Support Files/Pods-POCUIKitAppTests/Pods-POCUIKitAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		9F8EA79914831E6B98AB4C08 /* Pods_POCUIKitApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POCUIKitApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF48B2CB67B8845EE6E2C027 /* Pods-POCUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCUIKit.release.xcconfig"; path = "Target Support Files/Pods-POCUIKit/Pods-POCUIKit.release.xcconfig"; sourceTree = "<group>"; };
@@ -183,7 +183,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8773B285AF54A87918D24024 /* Pods_POCUIKitUITests.framework in Frameworks */,
+				73C4B9DE5B881CFF12F2E02A /* Pods_POCUIKit_POCUIKitUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +433,7 @@
 				9F8EA79914831E6B98AB4C08 /* Pods_POCUIKitApp.framework */,
 				31EC00F871BABF9C880B4FB0 /* Pods_POCUIKitTests.framework */,
 				F25B08E186019B9723A8E798 /* Pods_POCUIKitAppTests.framework */,
-				4FC37106DC7E530703505D49 /* Pods_POCUIKitUITests.framework */,
+				83D80936E7B5902A4F17907B /* Pods_POCUIKit_POCUIKitUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -500,6 +500,7 @@
 				5214639D2D37DF980052C22E /* Sources */,
 				5214639E2D37DF980052C22E /* Frameworks */,
 				5214639F2D37DF980052C22E /* Resources */,
+				2407E00E89AADD2FC0231B46 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -671,6 +672,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		2407E00E89AADD2FC0231B46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-POCUIKit-POCUIKitUITests/Pods-POCUIKit-POCUIKitUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		902263B01D793D9BDC16A839 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -745,7 +761,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-POCUIKitUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-POCUIKit-POCUIKitUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1108,7 +1124,7 @@
 		};
 		521463B22D37DF980052C22E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC2FD2E10E37847D352B8903 /* Pods-POCUIKitUITests.debug.xcconfig */;
+			baseConfigurationReference = E24B1C1FFBED60243ED601FE /* Pods-POCUIKit-POCUIKitUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1127,7 +1143,7 @@
 		};
 		521463B32D37DF980052C22E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 310960627091335ED3651FF3 /* Pods-POCUIKitUITests.release.xcconfig */;
+			baseConfigurationReference = E529967EFC80BAD7EB7A7398 /* Pods-POCUIKit-POCUIKitUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

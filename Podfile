@@ -13,45 +13,28 @@ inhibit_all_warnings!
 
 target 'POCUIKit' do
   # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
 
-  pod 'IQKeyboardManagerSwift'
-  pod 'Kingfisher', '6.3.1'
-  pod 'lottie-ios', '3.4.4'
-
-  pod "HyperioniOS/Core"
-  pod 'HyperioniOS/AttributesInspector'
-  pod 'HyperioniOS/Measurements'
-  pod 'HyperioniOS/SlowAnimations'
   pod 'OneAppDesignSystem', '11.5.0'
 
   # Pods for POCUIKit
 
-  target 'POCUIKitTests' do
+  target 'POCUIKitApp' do
     inherit! :search_paths
-    # Pods for testing
   end
-
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-end
-
-target 'POCUIKitApp' do
-  # Comment the next line if you don't want to use dynamic frameworks
 
   target 'POCUIKitAppTests' do
     inherit! :search_paths
     # Pods for testing
   end
 
-end
-
-post_install do |installer|
-  installer.pods_project.targets.each do |target|
-    target.build_configurations.each do |config|
-      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '12.0'
-      config.build_settings['CODE_SIGNING_ALLOWED'] = 'NO'
-    end
+  target 'POCUIKitTests' do
+    inherit! :search_paths
+    # Pods for testing
   end
+
+  target 'POCUIKitUITests' do
+    # Pods for testing
+  end
+
 end
