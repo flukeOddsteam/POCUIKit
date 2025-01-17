@@ -3,13 +3,13 @@
 
 platform :ios, '12.0'
 
-source 'https://github.com/cocoapods/specs.git'
-source 'git@github.com:flukeOddsteam/POCUIKit-private-pod.git'
-source 'https://bitbucket.org/ttbbank/one_oneapp-designsystem-ios-private-pods.git'
-
-install! 'cocoapods', :disable_input_output_paths => true
-use_frameworks!
+# ignore all warnings from all pods
 inhibit_all_warnings!
+use_frameworks!
+install! 'cocoapods', :disable_input_output_paths => true
+
+source 'https://bitbucket.org/ttbbank/one_oneapp-designsystem-ios-private-pods.git'
+source 'https://github.com/CocoaPods/Specs.git'
 
 target 'POCUIKit' do
   # Comment the next line if you don't want to use dynamic frameworks

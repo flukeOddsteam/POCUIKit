@@ -241,7 +241,6 @@
 				5214638A2D37DF970052C22E /* Main.storyboard */,
 				5214638D2D37DF980052C22E /* Assets.xcassets */,
 				5214638F2D37DF980052C22E /* LaunchScreen.storyboard */,
-				521463922D37DF980052C22E /* Info.plist */,
 			);
 			path = POCUIKitApp;
 			sourceTree = "<group>";
@@ -268,6 +267,7 @@
 			children = (
 				521463F82D37E39C0052C22E /* Source */,
 				521463BB2D37DFD20052C22E /* POCUIKitApp.h */,
+				521463922D37DF980052C22E /* Info.plist */,
 				521463BC2D37DFD20052C22E /* POCUIKitApp.docc */,
 			);
 			path = POCUIKit;
