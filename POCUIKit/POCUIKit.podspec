@@ -1,16 +1,16 @@
 Pod::Spec.new do |spec|
   spec.name         = "POCUIKit"
-  spec.version      = "0.0.17"
+  spec.version      = "0.0.18"
   spec.summary      = "POCUIKit, is a part of Go by One App TTB application."
 
   spec.homepage     = "https://github.com/flukeOddsteam/POCUIKit"
   spec.license      = { :type => 'MIT', :text => 'Copyright © 2021 TMB Bank Public Company Limited. All rights reserved.' }
   spec.author       = { "fluke" => "fluke@odds.team" }
   spec.source       = { :git => "git@github.com:flukeOddsteam/POCUIKit.git", :tag => "#{spec.version}" }
-  spec.source_files = "POCUIKit/Source/**/*.{swift,h,m}"
+  spec.source_files = "Source/**/*.{swift,h,m}"
   spec.resources    = [
-    "POCUIKit/Source/**/*.{strings,xcassets,storyboard,xib}",
-    "POCUIKit/Source/**/*.json"
+    "Source/**/*.{strings,xcassets,storyboard,xib}",
+    "Source/**/*.json"
   ]
 
   spec.ios.deployment_target = "12.0"
