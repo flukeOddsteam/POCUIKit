@@ -236,7 +236,6 @@
 		521463832D37DF970052C22E /* POCUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				521463F82D37E39C0052C22E /* Source */,
 				521463842D37DF970052C22E /* AppDelegate.swift */,
 				521463862D37DF970052C22E /* SceneDelegate.swift */,
 				5214638A2D37DF970052C22E /* Main.storyboard */,
@@ -267,6 +266,7 @@
 		521463BA2D37DFD20052C22E /* POCUIKitApp */ = {
 			isa = PBXGroup;
 			children = (
+				521463F82D37E39C0052C22E /* Source */,
 				521463BB2D37DFD20052C22E /* POCUIKitApp.h */,
 				521463BC2D37DFD20052C22E /* POCUIKitApp.docc */,
 			);
