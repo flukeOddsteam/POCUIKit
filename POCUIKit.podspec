@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "POCUIKit"
-  spec.version      = "0.0.13"
+  spec.version      = "0.0.14"
   spec.summary      = "POCUIKit, is a part of Go by One App TTB application."
 
   spec.homepage     = "https://github.com/flukeOddsteam/POCUIKit"
