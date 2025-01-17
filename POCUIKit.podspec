@@ -26,4 +26,3 @@ Pod::Spec.new do |spec|
     lib.dependency 'OneAppDesignSystem', '11.5.0'
   end
 end
-

@@ -43,17 +43,6 @@ end
 target 'POCUIKitApp' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-
-  pod 'IQKeyboardManagerSwift'
-  pod 'Kingfisher', '6.3.1'
-  pod 'lottie-ios', '3.4.4'
-
-  pod "HyperioniOS/Core"
-  pod 'HyperioniOS/AttributesInspector'
-  pod 'HyperioniOS/Measurements'
-  pod 'HyperioniOS/SlowAnimations'
-  pod 'OneAppDesignSystem', '11.5.0'
-
   # Pods for POCUIKitApp
 
   target 'POCUIKitAppTests' do
