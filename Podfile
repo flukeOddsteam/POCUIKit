@@ -8,11 +8,11 @@ source 'git@github.com:flukeOddsteam/POCUIKit-private-pod.git'
 source 'https://bitbucket.org/ttbbank/one_oneapp-designsystem-ios-private-pods.git'
 
 install! 'cocoapods', :disable_input_output_paths => true
+use_frameworks!
 inhibit_all_warnings!
 
 target 'POCUIKit' do
   # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
 
   pod 'IQKeyboardManagerSwift'
   pod 'Kingfisher', '6.3.1'
@@ -27,13 +27,10 @@ target 'POCUIKit' do
   # Pods for POCUIKit
 
   target 'POCUIKitTests' do
-    use_frameworks!
     inherit! :search_paths
     # Pods for testing
   end
 
-  target 'POCUIKitUITests' do
-    use_frameworks!
     inherit! :search_paths
     # Pods for testing
   end
@@ -42,11 +39,8 @@ end
 
 target 'POCUIKitApp' do
   # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
-  # Pods for POCUIKitApp
 
   target 'POCUIKitAppTests' do
-    use_frameworks!
     inherit! :search_paths
     # Pods for testing
   end
