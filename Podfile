@@ -8,7 +8,7 @@ inhibit_all_warnings!
 use_frameworks!
 install! 'cocoapods', :disable_input_output_paths => true
 
-source 'https://bitbucket.org/ttbbank/one_oneapp-designsystem-ios-private-pods.git'
+source 'git@bitbucket.org:ttbbank/one_oneapp-designsystem-ios-private-pods.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'POCUIKit' do
